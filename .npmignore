@@ -1,6 +1,5 @@
 src
 node_modules
-README.md
 .gitignore
 test.js
 test.ts

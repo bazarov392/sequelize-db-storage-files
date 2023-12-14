@@ -1,6 +1,6 @@
 {
   "name": "sequelize-db-storage-files",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "scripts": {
     "build": "rm -rf dist && tsc"
@@ -12,7 +12,13 @@
   "repository": {
     "url": "https://github.com/bazarov392/sequelize-db-storage-files"
   },
-  "keywords": [],
+  "keywords": [
+    "db",
+    "sequelize",
+    "files",
+    "storage-files",
+    "filesystem"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

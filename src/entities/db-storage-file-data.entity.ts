@@ -29,6 +29,6 @@ export class DbStorageFileData extends Model<DbStorageFileDataAttributes, DbStor
     declare fileInfo: DbStorageFile
     declare getFileInfo: () => Promise<DbStorageFile>
 
-    @Column({type: DataType.BLOB('tiny')})
+    @Column({type: DataType.BLOB('long')})
     declare data: Buffer
 }
